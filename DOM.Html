@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body{
+            background: rgb(67, 68, 68);
+            color: white;
+            font: normal 18pt Arial;
+        }
+        div{
+            background: rgb(109, 199, 68);
+            color: white;
+            font: normal 20pt Arial;
+            width: 200px;
+            height: 200x;
+            line-height: 200px;
+            text-align:center;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <div id=3 onclick="clicar()"  onmouseover="entrar()" onmouseout="sair()">
+        OK!
+    </div>
+    <script>
+           var a= window.document.getElementById(3)
+           a.style.background='black'
+        function clicar(){
+         
+            a.innerText="top! deu bom"
+            a.style.background='red'
+        }
+        function entrar(){
+            a.innerText="entrou"
+            a.style.color='black'
+            a.style.background='white'
+        }
+        function sair(){
+            a.innerText="saiu"
+            a.style.color='white'
+            a.style.background='black'
+        }
+    
+
+    </script>
+</body>
+</html>

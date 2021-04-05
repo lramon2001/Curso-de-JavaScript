@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(21, 32, 185);
+            
+        }
+        p{
+            font: normal 18pt Arial;
+            color: ghostwhite; 
+        }
+        div{
+            color: ghostwhite; 
+            font: normal 18pt Arial;
+        }
+    </style>
+</head>
+<body>
+    <p>País: <input type="text" id=1>
+    <button type="text" id=2 onclick="testar()">Run</button></p>
+
+    <div id="test">
+        Sem resposta
+    </div>
+  <script>
+      function testar(){
+          var a=window.document.getElementById(1)
+          var b=window.document.querySelector('div#test')
+          if(a.value=="Brasil"){
+              b.innerHTML="Cê é br irmão"
+          }
+          else{
+              b.innerHTML="Cê é gringo"
+          }
+      }
+       
+  </script>
+    
+</body>
+</html>
