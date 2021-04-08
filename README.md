@@ -1,4 +1,4 @@
-# CURSO DE JavaScript
+# Curso De JavaScript
 [![licence mit](https://img.shields.io/badge/licence-MIT-blue.svg)](https://github.com/lramon2001/ORIENTA-O-A-OBJETOS-FGA0158/blob/main/LICENSE)
 ![language](https://img.shields.io/badge/javaSricpt-only-yellow)
 
