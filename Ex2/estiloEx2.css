@@ -19,6 +19,17 @@ footer{
     text-align: center;
     font-style: italic;
 }
+#fotografia{
+    text-align: center;
+
+}
 label{
     font: normal 10pt Arial; 
+}
+#label1{
+    margin-right: -8px;  
+    text-align: justify;
+}
+#label2{
+    margin-right: -8px; 
 }
