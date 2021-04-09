@@ -8,13 +8,15 @@ function run(){
     var contador
     if(end.value>start.value){
         for(contador=Number(start.value);contador<=Number(end.value);contador+=Number(pass.value)){
-            answer.innerHTML+= contador+" <br>"
+            answer.innerHTML+= contador+ `\u{1F681}`
         }
+        answer.innerHTML+="_____"+`\u{1FA82}`
     }
     else if(start.value>end.value){
         for(contador=Number(start.value);contador>=Number(end.value);contador-=Number(pass.value)){
-            answer.innerHTML+= contador+" <br>"
+            answer.innerHTML+= contador+ `\u{1F681}`
         }
+        answer.innerHTML+="____ "+`\u{1FA82}`
     }
   
     
