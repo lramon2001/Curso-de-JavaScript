@@ -1,0 +1,21 @@
+// Comparação com maior
+console.log("NUMBER")
+console.log(4>3)
+console.log("CHAR")
+console.log('a'>'z')
+console.log("STRING")
+console.log("Lucas">"Felipe")
+//Comparação com 
+console.log("NUMBER")
+console.log(4>3)
+console.log("CHAR")
+console.log('a'<'z')
+console.log("STRING")
+console.log("São Paulo"<"Vasco")
+//Comaparção com menor igual maior igual
+console.log("STRING")
+console.log("Tetus">="Teteus")
+console.log("NUMBER")
+console.log(3>=3)
+console.log("CHAR")
+console.log('a'>='z')
